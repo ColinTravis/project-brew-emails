@@ -92,17 +92,18 @@ const containerImageFooter = {
         url: 'https://fonts.gstatic.com/s/fredoka/v14/X7nP4b87HvSqjb_WIi2yDCRwoQ_k7367_B-i2yQag0-mac3O8SL8EemKttxNbikt.woff2',
         format: 'woff2',
       }" font-weight="400" font-style="normal" />
-      </EHead>
-      <EPreview>Yelp recent login</EPreview>
-      <ETailwind :config="tailwindConfig">
+    </EHead>
+    <EPreview>Yelp recent login</EPreview>
+    <ETailwind :config="tailwindConfig">
       <EBody class="bg-cream">
         <EContainer>
-          <ESection :style="logo">
+          <!-- <ESection :style="logo">
             <EImg src="/static/yelp-logo.png" />
-          </ESection>
+          </ESection> -->
 
           <ESection class="py-3 px-10 border-3 border-black rounded-standard bg-light-gray" :style="content">
-            <EImg width="200" class="mx-auto" src="https://res.cloudinary.com/project-brew/image/upload/v1707202627/brewster/email/Brewster-logo_j9j6it.png" />
+            <EImg width="200" class="mx-auto"
+              src="https://res.cloudinary.com/project-brew/image/upload/v1707202627/brewster/email/Brewster-logo_j9j6it.png" />
 
             <ERow :style="{
               ...boxInfos,
@@ -111,7 +112,7 @@ const containerImageFooter = {
               <EColumn>
                 <EHeading style="font-size: 32; font-weight: bold; text-align: center"> Hi {{ userFirstName }},
                 </EHeading>
-                <EHeading :style=fontTest class="text-center text-2xl" as="h2">
+                <EHeading class="text-center text-2xl" as="h2">
                   You've been invited.
                 </EHeading>
 
@@ -152,19 +153,19 @@ const containerImageFooter = {
             </ERow>
           </ESection>
 
-          <ESection :style="containerImageFooter">
+          <!-- <ESection :style="containerImageFooter">
             <EImg width="620" src="/static/yelp-footer.png" />
-          </ESection>
+          </ESection> -->
 
           <EText :style="{
             textAlign: 'center',
             fontSize: 12,
             color: 'rgb(0,0,0, 0.7)',
           }">
-            © 2022 | Yelp Inc., 350 Mission Street, San Francisco, CA 94105, U.S.A. | www.yelp.com
+
           </EText>
         </EContainer>
       </EBody>
     </ETailwind>
-    </EHtml>
+  </EHtml>
 </template>
