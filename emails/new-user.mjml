@@ -1,0 +1,43 @@
+<mjml>
+  <mj-head>
+    <mj-title>New User</mj-title>
+    <mj-preview>
+      Preview
+    </mj-preview>
+    <mj-font name="Fredoka" href="https://fonts.googleapis.com/css?family=Fredoka" />
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column border-radius="13px" border="3px solid #31312d">
+        <mj-image src="https://res.cloudinary.com/project-brew/image/upload/v1707202627/brewster/email/Brewster-logo_j9j6it.png" alt="" />
+        <mj-text font-family="Fredoka, Arial">
+          Hello World!
+        </mj-text>
+        <mj-text color="#31312D" font-family="Fredoka, Arial">
+          Hello World!
+        </mj-text>
+        <mj-text color="#c9c7c7" font-family="Fredoka, Arial">
+          Hello World!
+        </mj-text>
+        <mj-text color="#623CEA" font-family="Fredoka, Arial">
+          Hello World!
+        </mj-text>
+        <mj-text color="#FAF4E6" font-family="Fredoka, Arial">
+          Hello World!
+        </mj-text>
+        <mj-text color="#EFAD06" font-family="Fredoka, Arial">
+          Hello World!
+        </mj-text>
+        <mj-text color="#60B2E5" font-family="Fredoka, Arial">
+          Hello World!
+        </mj-text>
+        <mj-text color="#D9D9D9" font-family="Fredoka, Arial">
+          Hello World!
+        </mj-text>
+        <mj-text color="#ED1C24" font-family="Fredoka, Arial">
+          Hello World!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
