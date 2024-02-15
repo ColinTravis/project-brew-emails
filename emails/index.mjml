@@ -15,18 +15,24 @@
         margin: 0;
         padding: 0;
       }
+
       .bordered-box-top {
         border-top: 3px solid #31312D !important;
         border-left: 3px solid #31312D !important;
         border-right: 3px solid #31312D !important;
         border-top-left-radius: 13px !important;
         border-top-right-radius: 13px !important;
+        background-color: #d9d8d6 !important;
       }
+
       .bordered-box-sides {
+        background-color: #d9d8d6 !important;
         border-left: 3px solid #31312D !important;
         border-right: 3px solid #31312D !important;
       }
+
       .bordered-box-bottom {
+        background-color: #d9d8d6 !important;
         border-left: 3px solid #31312D !important;
         border-right: 3px solid #31312D !important;
         border-bottom: 3px solid #31312D !important;
@@ -46,16 +52,16 @@
         </mj-column>
       </mj-section>
 
-      <mj-section full-width="full-width" background-color="#d9d8d6" padding="0" border-radius="13px">
-        <mj-column width="100%" background-color="#d9d8d6" border-radius="13px" padding-top="20px" padding-bottom="20px" css-class="bordered-box-top">
+      <mj-section full-width="full-width" padding="0" border-radius="13px" padding-left="10px" padding-right="10px">
+        <mj-column width="100%" border-radius="13px" padding-top="20px" padding-bottom="20px" css-class="bordered-box-top">
           <mj-image width="200px" src="https://res.cloudinary.com/project-brew/image/upload/v1707202627/brewster/email/Brewster-logo_j9j6it.png" alt="Project Brew Logo" />
         </mj-column>
-<mj-column background-color="#d9d8d6" border-radius="13px" width="100%" css-class="bordered-box-sides">
-  <mj-text>
-    dsajk;sda
-  </mj-text>
-</mj-column>
-        <mj-column  width="100%" css-class="bordered-box-bottom">
+        <mj-column border-radius="13px" width="100%" css-class="bordered-box-sides">
+          <mj-text>
+            dsajk;sda
+          </mj-text>
+        </mj-column>
+        <mj-column width="100%" css-class="bordered-box-bottom">
           <mj-text>
             Blah blah blah
           </mj-text>
