@@ -1,91 +1,110 @@
 <mjml>
   <mj-head>
-    <mj-title></mj-title>
-    <mj-preview></mj-preview>
+    <mj-title>🍻 Get Hopped Up! You're Invited to Drinkster!</mj-title>
+    <mj-preview>Preview Copy goes here</mj-preview>
     <mj-attributes>
-      <mj-all color="#31312D" font-family="Fredoka, sans-serif" />
+      <mj-all color="#31312D" font-family="Fredoka, Arial, sans-serif" />
     </mj-attributes>
-    <mj-style inline="inline">
-      a {
-        color: #0072CE;
-      }
-    </mj-style>
+    <mj-style inline="inline"> a { color: #0072CE; } </mj-style>
+    <!-- prettier-ignore -->
     <mj-style>
-      body {
-        margin: 0;
-        padding: 0;
-      }
-
       .bordered-box-top {
-        border-top: 3px solid #31312D !important;
-        border-left: 3px solid #31312D !important;
-        border-right: 3px solid #31312D !important;
+        border-top: 3px solid #31312d !important;
+        border-left: 3px solid #31312d !important;
+        border-right: 3px solid #31312d !important;
         border-top-left-radius: 13px !important;
         border-top-right-radius: 13px !important;
         background-color: #d9d8d6 !important;
       }
-
       .bordered-box-sides {
         background-color: #d9d8d6 !important;
-        border-left: 3px solid #31312D !important;
-        border-right: 3px solid #31312D !important;
+        border-left: 3px solid #31312d !important;
+        border-right: 3px solid #31312d !important;
       }
-
       .bordered-box-bottom {
         background-color: #d9d8d6 !important;
-        border-left: 3px solid #31312D !important;
-        border-right: 3px solid #31312D !important;
-        border-bottom: 3px solid #31312D !important;
+        border-left: 3px solid #31312d !important;
+        border-right: 3px solid #31312d !important;
+        border-bottom: 3px solid #31312d !important;
         border-bottom-left-radius: 13px !important;
         border-bottom-right-radius: 13px !important;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.25;
       }
     </mj-style>
   </mj-head>
   <mj-body width="600px" background-color="#FAF4E6">
     <!-- Windows 10 Mail Background Color fix -->
-    <mj-wrapper full-width="full-width" background-color="#FAF4E6" padding-top="0px" padding-bottom="0px">
-
+    <mj-wrapper
+      full-width="full-width"
+      background-color="#FAF4E6"
+      padding-top="0px"
+      padding-bottom="0px"
+    >
       <!-- START BODY -->
-      <mj-section>
+      <mj-section background-color="#FAF4E6">
         <mj-column width="100%">
-          <mj-spacer height="50px" />
+          <mj-spacer height="0px" />
         </mj-column>
       </mj-section>
 
-      <mj-section full-width="full-width" padding="0" border-radius="13px" padding-left="10px" padding-right="10px">
-        <mj-column width="100%" border-radius="13px" padding-top="20px" padding-bottom="20px" css-class="bordered-box-top">
-          <mj-image width="200px" src="https://res.cloudinary.com/project-brew/image/upload/v1707202627/brewster/email/Brewster-logo_j9j6it.png" alt="Project Brew Logo" />
+      <mj-section full-width="full-width" background-color="#FAF4E6">
+        <mj-column width="100%">
+          <mj-image
+            width="200px"
+            src="https://project-brew-cloud.imgix.net/emails/drinkster_logo.svg?h=500"
+            alt="Project Brew Logo"
+          />
         </mj-column>
-        <mj-column border-radius="13px" width="100%" css-class="bordered-box-sides">
+      </mj-section>
+
+      <mj-section
+        background-color="#FAF4E6"
+        full-width="full-width"
+        padding="0"
+        border-radius="13px"
+        padding-left="15px"
+        padding-right="15px"
+      >
+        <mj-column
+          width="100%"
+          border-radius="13px"
+          css-class="bordered-box-top"
+        >
+          <mj-spacer height="13px" />
+        </mj-column>
+        <mj-column
+          border-radius="13px"
+          width="100%"
+          css-class="bordered-box-sides"
+        >
           <mj-text>
-            dsajk;sda
+            <h1>We're raising a virtual toast to you!</h1>
+            <p>
+              You've scored an invite to
+              Drinkster, the ultimate drink-sharing haven. Dive into the world
+              of craft brews, sudsy camaraderie, and handmade cocktails.
+            </p>
+            <p>
+            📲 Click
+              <a href="#" style="text-decoration:underline;">here</a> to hop on board and craft your beer-loving profile. Let the
+              good times flow!</p>
+              </p>
+              <p>
+               Cheers, <br>Drinkster</p>
           </mj-text>
         </mj-column>
         <mj-column width="100%" css-class="bordered-box-bottom">
-          <mj-text>
-            Blah blah blah
-          </mj-text>
+          <mj-spacer height="13px" />
         </mj-column>
       </mj-section>
-      <!-- <mj-section background-color="#d9d8d6" padding-top="22px">
-        <mj-column padding="0 0px">
-          <mj-text color="#ffffff" css-class="hero-text" align="left">
-          </mj-text>
+      <mj-section>
+        <mj-column width="100%">
+          <mj-spacer height="150px" />
         </mj-column>
-      </mj-section> -->
-      <!-- <mj-section padding="0px 0px" padding-bottom="80px" background-color="#d9d8d6">
-        <mj-column vertical-align="middle" width="33.333%" padding="0px 0px" padding-top="5px">
-
-        </mj-column>
-
-        <mj-column vertical-align="middle" width="33.333%" padding="0px 0px" padding-top="5px">
-
-        </mj-column>
-
-        <mj-column vertical-align="middle" width="33.333%" padding="0px 0px" padding-top="5px">
-
-        </mj-column>
-      </mj-section> -->
+      </mj-section>
     </mj-wrapper>
   </mj-body>
 </mjml>
