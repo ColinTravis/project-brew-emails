@@ -1,0 +1,110 @@
+<mjml>
+  <mj-head>
+    <mj-title>On the Rocks? Let's Reset Your Password.</mj-title>
+    <mj-preview>Reset your Drinkster password</mj-preview>
+    <mj-attributes>
+      <mj-all color="#31312D" font-family="Fredoka, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-style inline="inline"> a { color: #0072CE; } </mj-style>
+    <!-- prettier-ignore -->
+    <mj-style>
+      .bordered-box-top {
+        border-top: 3px solid #31312d !important;
+        border-left: 3px solid #31312d !important;
+        border-right: 3px solid #31312d !important;
+        border-top-left-radius: 13px !important;
+        border-top-right-radius: 13px !important;
+        background-color: #d9d8d6 !important;
+      }
+      .bordered-box-sides {
+        background-color: #d9d8d6 !important;
+        border-left: 3px solid #31312d !important;
+        border-right: 3px solid #31312d !important;
+      }
+      .bordered-box-bottom {
+        background-color: #d9d8d6 !important;
+        border-left: 3px solid #31312d !important;
+        border-right: 3px solid #31312d !important;
+        border-bottom: 3px solid #31312d !important;
+        border-bottom-left-radius: 13px !important;
+        border-bottom-right-radius: 13px !important;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.25;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="600px" background-color="#FAF4E6">
+    <!-- Windows 10 Mail Background Color fix -->
+    <mj-wrapper
+      full-width="full-width"
+      background-color="#FAF4E6"
+      padding-top="0px"
+      padding-bottom="0px"
+    >
+      <!-- START BODY -->
+      <mj-section background-color="#FAF4E6">
+        <mj-column width="100%">
+          <mj-spacer height="0px" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section full-width="full-width" background-color="#FAF4E6">
+        <mj-column width="100%">
+          <mj-image
+            width="200px"
+            src="https://project-brew-cloud.imgix.net/emails/images/drinkster_logo.png?h=500"
+            alt="Project Brew Logo"
+          />
+        </mj-column>
+      </mj-section>
+
+      <mj-section
+        background-color="#FAF4E6"
+        full-width="full-width"
+        padding="0"
+        border-radius="13px"
+        padding-left="15px"
+        padding-right="15px"
+      >
+        <mj-column
+          width="100%"
+          border-radius="13px"
+          css-class="bordered-box-top"
+        >
+          <mj-spacer height="13px" />
+        </mj-column>
+        <mj-column
+          border-radius="13px"
+          width="100%"
+          css-class="bordered-box-sides"
+        >
+          <mj-text>
+            <p>
+              It seems you've forgotten your password. No worries, it happens to the best of us after a few good rounds!
+
+              To get back to sharing your brews, simply click the link below to reset your password.
+            </p>
+            <p>
+              <a href="{{ .ConfirmationURL }}" style="text-decoration:underline;">Reset Password</a></p>
+              </p>
+              <p>
+               This link will expire in 2 hours. If you didn't request this change, you can safely ignore this email.</p>
+            <p>
+            Cheers,<br>
+            Drinkster</p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="100%" css-class="bordered-box-bottom">
+          <mj-spacer height="13px" />
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column width="100%">
+          <mj-spacer height="150px" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
