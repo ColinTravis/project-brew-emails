@@ -54,7 +54,7 @@
         <mj-column width="100%">
           <mj-image
             width="200px"
-            src="https://project-brew-cloud.imgix.net/emails/images/drinkster_logo.png?h=500"
+            src="https://drinkster.app/images/email-header.png"
             alt="Project Brew Logo"
           />
         </mj-column>
